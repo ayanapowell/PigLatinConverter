@@ -65,6 +65,6 @@ $('h1').fadeIn(1400);
     var words = userInput.split(" ");
     words = translateWords(words);
     words = words.join(' ');
-    $('#output').text(words);
+    $('h2').append(words).fadeIn();
   });
 });

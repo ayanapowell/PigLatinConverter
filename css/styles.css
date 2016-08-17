@@ -22,6 +22,17 @@ h1 {
   display: none;
 }
 
+h2 {
+  text-align: center;
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+  font-family: monospace;
+  text-shadow: 4px 4px black;
+  margin-bottom: 10%;
+  display: none;
+}
+
 #output {
   margin-top: 150px;
 }
